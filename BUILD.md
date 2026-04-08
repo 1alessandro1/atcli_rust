@@ -18,7 +18,7 @@ Replace the entire content of the `Cargo.toml` file with the following configura
 
 ```toml
 [package]
-name = "atcli"
+name = "atcli-rs"
 version = "0.1.0"
 edition = "2024"
 description = "Safe and lightweight AT Command CLI for SDX55 Modems"
@@ -55,14 +55,14 @@ RUSTFLAGS="-C target-feature=+crt-static" cargo build --target armv7-unknown-lin
 
 **Where is the binary?**
 Once the process finishes, your executable will be located at:
-`target/armv7-unknown-linux-gnueabihf/release/atcli`
+`target/armv7-unknown-linux-gnueabihf/release/atcli-rs`
 
 ## 6. (Optional) Extreme Compression with UPX
 If you need the smallest possible file (ideal for loading into a router's RAM), use the `upx` tool to compress the binary:
 
 ```bash
 # This will usually reduce the size from ~600KB down to ~150-200KB
-upx --best --lzma target/armv7-unknown-linux-gnueabihf/release/atcli
+upx --best --lzma target/armv7-unknown-linux-gnueabihf/release/atcli-rs
 ```
 
 ---
