@@ -1,7 +1,3 @@
-Here is the complete guide on how to initialize and build the project, written in Markdown and in English, ready to be included in your repository or a separate `BUILD.md` file.
-
----
-
 # 🛠 Setting Up and Building the Rust Project
 
 This guide explains how to set up the Rust environment, initialize the project from scratch, and compile a static, optimized binary for the ARMv7 architecture (SDX55).
