@@ -20,7 +20,7 @@ Replace the entire content of the `Cargo.toml` file with the following configura
 [package]
 name = "atcli"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 description = "Safe and lightweight AT Command CLI for SDX55 Modems"
 
 [dependencies]
