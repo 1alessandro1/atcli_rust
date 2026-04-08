@@ -1,6 +1,6 @@
 # SDX55 AT Command CLI (atcmd-rs)
 
-A modern, memory-safe, and highly optimized Rust rewrite of the `atcli` and `atcmd` utilities for Qualcomm SDX55 modems (originally developed by Compal).
+A modern, memory-safe, and highly optimized Rust rewrite of the `atcli` and `atcmd` utilities for Qualcomm SDX55/X65/X75 modems (originally developed by Compal).
 
 This project is the result of deep reverse engineering of the original OEM binaries. Our goal was to understand their internal mechanics, expose their critical vulnerabilities, and provide a standalone, static executable suitable for UBIFS embedded filesystems.
 
