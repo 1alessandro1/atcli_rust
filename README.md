@@ -28,8 +28,4 @@ This Rust version merges the best of both worlds while addressing all OEM archit
 
 ## 🛠️ Build Instructions for Embedded Systems
 
-To build this for the ARMv7 architecture (used by SDX55 modems), you need the Rust toolchain and the appropriate target.
-
-**1. Install the ARMv7 target:**
-```bash
-rustup target add armv7-unknown-linux-gnueabihf
+To build this for the ARMv7 architecture (used by SDX55 modems), you need the Rust toolchain and the appropriate target. See [BUILD.md](BUILD.md) for details
