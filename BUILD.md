@@ -58,18 +58,9 @@ Once the process finishes, your executable will be located at:
 `target/armv7-unknown-linux-gnueabihf/release/atcli-rs`
 
 ## 6. (Optional) Extreme Compression with UPX
-If you need the smallest possible file (ideal for loading into a router's RAM), use the `upx` tool to compress the binary:
+If you need the smallest possible file (ideal for tiny filesystems), use the `upx` tool to compress the binary:
 
 ```bash
 # This will usually reduce the size from ~600KB down to ~150-200KB
 upx --best --lzma target/armv7-unknown-linux-gnueabihf/release/atcli-rs
 ```
-
----
-
-### Summary of Files in the Repo
-Your final GitHub repository should look like this:
-* `README.md`: General overview.
-* `reversing_readme.md`: Technical details of the reverse engineering.
-* `Cargo.toml`: Build configuration.
-* `src/main.rs`: The Rust source code.
