@@ -21,7 +21,7 @@ Replace the entire content of the `Cargo.toml` file with the following configura
 name = "atcli-rs"
 version = "0.1.0"
 edition = "2024"
-description = "Safe and lightweight AT Command CLI for SDX55 Modems"
+description = "Safe and lightweight AT Command CLI for SDX55/X65/X75 Modems"
 
 [dependencies]
 # No external dependencies are used to keep the binary as small as possible.
